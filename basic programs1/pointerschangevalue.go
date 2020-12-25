@@ -1,0 +1,12 @@
+package main
+import "fmt"
+func main() {
+	x:=50
+
+	changeValue(&x)
+	fmt.Println(x)
+}
+func changeValue(x *int)  {
+
+	*x=7;
+}
